@@ -1,0 +1,60 @@
+/* Remove default margins */
+* {
+    margin: 0;
+}
+
+/* Body style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+#header {
+    background-color: dimgray;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    border-bottom: 0.5rem solid LightSeaGreen;
+}
+
+/* Title section */
+#title {
+    text-align: center;
+    padding: 2rem;
+}
+
+/* About section with Flexbox */
+#about {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+#about img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+/* Center h3 */
+h3 {
+    text-align: center;
+    margin: 2rem 0 1rem 0;
+}
+
+/* Favorites section */
+#fav {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+/* Wish section */
+#wish {
+    background-color: white;
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem;
+    border: 2px solid LightSeaGreen;
+}

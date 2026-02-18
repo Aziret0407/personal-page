@@ -1,30 +1,29 @@
-# Создаём style.css
-cat > hw4/style.css << 'EOF'
 * {
-  margin: 0;
-  box-sizing: border-box;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 body {
-  background: url("https://cdn.imgchest.com/files/2f506b9851ac.jpeg") no-repeat;
-  opacity: 0.5;
-  background-position: center top;
+    background: url("https://cdn.imgchest.com/files/2f506b9851ac.jpeg");
+    background-repeat: no-repeat;
+    background-size: 1400px auto;
+    opacity: 0.5;
 }
 
 .container {
-  width: 1400px;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
+    max-width: 1400px;
+    display: flex;
+    flex-wrap: wrap;
 }
-
 
 .container > * {
-  flex: 1 0 300px;
-  height: 200px;
-  background-color: lightblue;
-  font-size: 10rem;
-  color: blue;
-  border: 2px dashed blue;
+    flex-basis: 420px;
+    flex-grow: 1;
+    background-color: lightblue;
+    font-size: 10rem;
+    color: blue;
+    border: 2px dashed blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-EOF

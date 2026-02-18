@@ -1,29 +1,72 @@
 * {
-    margin: 0;
-    box-sizing: border-box;
+  margin: 0;
+  box-sizing: border-box;
 }
 
+
 body {
-    background: url("https://cdn.imgchest.com/files/2f506b9851ac.jpeg");
-    background-repeat: no-repeat;
-    background-size: 1400px auto;
-    opacity: 0.5;
+   background: url(https://cdn.imgchest.com/files/w7w6cvr8eye.png);
+  opacity: .5;
+  background-repeat: no-repeat;
 }
 
 .container {
-    max-width: 1400px;
-    display: flex;
-    flex-wrap: wrap;
+  max-width: 1400px;
 }
 
 .container > * {
-    flex-basis: 420px;
-    flex-grow: 1;
-    background-color: lightblue;
-    font-size: 10rem;
-    color: blue;
-    border: 2px dashed blue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: lightblue;
+  font-size: 10rem;
+  color: blue;
+  border: 2px dashed blue;
+}
+
+
+.container .box1 {
+  width: 1400px;
+  height: 200px;
+  background-color: lightblue;
+  font-size: 10rem;
+}
+
+.container {
+  max-width: 1400px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px; 
+}
+
+.container .box2 {
+  width: 235px;
+  height: 200px;
+  background-color: lightblue;
+  font-size: 10rem;
+}
+
+.container .box3 {
+  width: 565px;
+  height: 200px;
+  background-color: lightblue;
+  font-size: 10rem;
+}
+
+.container .box4 {
+  width: 564px;
+  height: 200px;
+  background-color: lightblue;
+  font-size: 10rem;
+}
+
+.container .box5 {
+  width: 1111px;
+  height: 200px;
+  background-color: lightblue;
+  font-size: 10rem;
+}
+
+.container .box6 {
+  width:271px;
+  height: 200px;
+  background-color: lightblue;
+  font-size: 10rem;
 }

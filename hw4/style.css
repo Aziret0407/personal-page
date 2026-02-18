@@ -18,6 +18,7 @@ body {
   flex-wrap: wrap;
 }
 
+
 .container > * {
   flex: 1 0 300px;
   height: 200px;

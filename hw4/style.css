@@ -6,7 +6,7 @@ cat > hw4/style.css << 'EOF'
 }
 
 body {
-  background: url(https://cdn.imgchest.com/files/2f506b9851ac.jpeg) no-repeat;
+  background: url("https://cdn.imgchest.com/files/2f506b9851ac.jpeg") no-repeat;
   opacity: 0.5;
   background-position: center top;
 }

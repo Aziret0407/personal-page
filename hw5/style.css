@@ -1,0 +1,98 @@
+/* CSS Starter Code - Assignment 5 */
+
+/* Container div */
+.container {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+/* Every flex child of container div */
+.container > * {
+    flex-basis: 200px;
+    border: 2px solid firebrick;
+    flex-grow: 1;
+}
+
+/* Tag list - general styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: .5rem;
+    background-color: pink;
+}
+
+/* Info section */
+.info {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    padding: 1rem;
+}
+
+/* Button styles */
+button {
+    background: firebrick;
+    padding: .5rem;
+    border: none;
+    width: 100%;
+    color: white;
+}
+
+/* Box 1 specific styles */
+.box1 > .info {
+    justify-content: space-evenly;
+}
+
+.box1 ul {
+    justify-content: end;
+}
+
+/* Box 2 specific styles */
+.box2 > .info {
+    justify-content: space-between;
+}
+
+.box2 ul {
+    justify-content: space-around;
+}
+
+.box2 ul > * {
+    flex-grow: 1;
+}
+
+/* Box 3 specific styles */
+.box3 > .info {
+    justify-content: space-around;
+}
+
+.box3 ul {
+    justify-content: center;
+}
+
+/* Box 4 specific styles */
+.box4 > .info {
+    justify-content: end;
+    align-items: center;
+}
+
+.box4 ul {
+    justify-content: space-evenly;
+}
+
+/* Box 5 specific styles */
+.box5 > .info {
+    justify-content: center;
+    align-items: end;
+}
+
+.box5 ul {
+    justify-content: space-between;
+}
+
+/* Box styles for visual clarity */
+.box {
+    background-color: #f9f9f9;
+    min-width: 200px;
+}

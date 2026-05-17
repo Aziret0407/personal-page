@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Yurt illustration</title>
+  <desc id="desc">Traditional yurt on grassland with mountains</desc>
+  <rect width="640" height="480" fill="#dff1fb"/>
+  <path d="M0 250 100 160 210 240 330 130 470 250 560 170 640 230V480H0Z" fill="#98bdd8"/>
+  <rect y="290" width="640" height="190" fill="#88b974"/>
+  <ellipse cx="320" cy="320" rx="140" ry="58" fill="#f6e8c7"/>
+  <path d="M180 320c14-76 72-118 140-118s126 42 140 118Z" fill="#d7773a"/>
+  <path d="M220 320c10-54 50-82 100-82s90 28 100 82Z" fill="#f6e8c7"/>
+  <circle cx="320" cy="248" r="22" fill="#0d6266"/>
+  <rect x="290" y="300" width="60" height="78" rx="18" fill="#355f89"/>
+</svg>

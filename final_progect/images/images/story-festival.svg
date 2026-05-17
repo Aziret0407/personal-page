@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Festival performance illustration</title>
+  <desc id="desc">Musicians performing on a stage with decorative lights</desc>
+  <rect width="640" height="480" fill="#f4ecde"/>
+  <rect y="280" width="640" height="200" fill="#1d4f71"/>
+  <path d="M0 160h640" stroke="#d6783d" stroke-width="14"/>
+  <circle cx="90" cy="160" r="10" fill="#f4cf62"/>
+  <circle cx="170" cy="160" r="10" fill="#f4cf62"/>
+  <circle cx="250" cy="160" r="10" fill="#f4cf62"/>
+  <circle cx="330" cy="160" r="10" fill="#f4cf62"/>
+  <circle cx="410" cy="160" r="10" fill="#f4cf62"/>
+  <circle cx="490" cy="160" r="10" fill="#f4cf62"/>
+  <circle cx="570" cy="160" r="10" fill="#f4cf62"/>
+  <rect x="120" y="220" width="90" height="160" rx="18" fill="#cb6040"/>
+  <circle cx="165" cy="200" r="28" fill="#f1c7a8"/>
+  <rect x="275" y="210" width="90" height="170" rx="18" fill="#0d6266"/>
+  <circle cx="320" cy="190" r="28" fill="#f1c7a8"/>
+  <rect x="430" y="225" width="90" height="155" rx="18" fill="#f0b74a"/>
+  <circle cx="475" cy="205" r="28" fill="#f1c7a8"/>
+  <path d="M200 260c50-24 90-22 140 8" stroke="#ffffff" stroke-width="12" stroke-linecap="round"/>
+  <path d="M460 265c22 5 42 18 58 36" stroke="#ffffff" stroke-width="12" stroke-linecap="round"/>
+</svg>

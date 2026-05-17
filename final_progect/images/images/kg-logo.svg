@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+  <title id="title">KG Daily logo</title>
+  <desc id="desc">Round red and blue emblem with KG letters</desc>
+  <rect width="160" height="160" rx="32" fill="#f4f7fb"/>
+  <circle cx="80" cy="80" r="58" fill="#d4282f"/>
+  <path d="M32 84h96" stroke="#ffffff" stroke-width="10" stroke-linecap="round"/>
+  <path d="M80 28c18 14 28 32 28 52S98 118 80 132C62 118 52 100 52 80s10-38 28-52Z" fill="#1f4f87"/>
+  <text x="80" y="96" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700" text-anchor="middle" fill="#ffffff">KG</text>
+</svg>

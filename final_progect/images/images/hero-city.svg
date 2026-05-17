@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Bishkek skyline illustration</title>
+  <desc id="desc">Mountains behind a city skyline and public square</desc>
+  <rect width="900" height="520" fill="#dcebf7"/>
+  <path d="M0 250 120 160 230 210 330 120 430 210 560 110 690 220 780 170 900 240V520H0Z" fill="#7fa5c7"/>
+  <path d="M0 280 110 220 230 270 350 180 470 270 590 170 740 250 900 210V520H0Z" fill="#9bc0da"/>
+  <rect y="320" width="900" height="200" fill="#f1d4a2"/>
+  <rect y="360" width="900" height="160" fill="#8fc08f"/>
+  <rect x="85" y="230" width="70" height="130" fill="#f2f5f9"/>
+  <rect x="105" y="180" width="30" height="50" fill="#f0b74a"/>
+  <rect x="200" y="260" width="110" height="100" fill="#d84c3e"/>
+  <rect x="220" y="240" width="20" height="20" fill="#f6d76c"/>
+  <rect x="260" y="240" width="20" height="20" fill="#f6d76c"/>
+  <rect x="360" y="210" width="90" height="150" fill="#355f89"/>
+  <rect x="380" y="190" width="50" height="20" fill="#f4f7fb"/>
+  <rect x="520" y="250" width="80" height="110" fill="#f2f5f9"/>
+  <rect x="620" y="220" width="120" height="140" fill="#587fa5"/>
+  <rect x="760" y="250" width="70" height="110" fill="#f2f5f9"/>
+  <path d="M0 400h900" stroke="#ede6d7" stroke-width="12"/>
+  <circle cx="140" cy="418" r="24" fill="#5f965c"/>
+  <circle cx="440" cy="430" r="26" fill="#5f965c"/>
+  <circle cx="710" cy="422" r="22" fill="#5f965c"/>
+</svg>

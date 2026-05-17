@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Final Project</title>
+    <link id="themeStylesheet" rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <button
+        id="menuToggle"
+        class="hamburger-menu"
+        type="button"
+        aria-label="Open section menu"
+        aria-expanded="false"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="page-grid">
+        <header class="site-header" id="top">
+          <div class="utility-bar">
+            <button id="switchStyleButton" class="switch-style" type="button">Switch Style</button>
+            <p class="utility-note">COM360 Final Project homepage study | Kyrgyzstan feature page</p>
+          </div>
+
+          <div class="branding-row">
+            <a class="brand" href="#top">
+              <img src="images/kg-logo.svg" alt="KG Daily logo" />
+              <div class="brand-copy">
+                <span class="brand-title">KG Daily</span>
+                <span class="brand-subtitle">Stories, travel, and culture from Kyrgyzstan</span>
+              </div>
+            </a>
+
+            <form class="search-form" action="#" method="get" role="search">
+              <label class="visually-hidden" for="siteSearch">Search the homepage</label>
+              <input id="siteSearch" name="q" type="search" placeholder="Search headlines" />
+              <button type="submit">Search</button>
+            </form>
+          </div>
+        </header>
+
+        <nav class="top-nav" aria-label="Top topics">
+          <a href="#lead-story">Top Story</a>
+          <a href="#top-stories">News</a>
+          <a href="#culture">Culture</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#city-guide">City Guide</a>
+        </nav>
+
+        <aside class="left-menu" id="pageMenu" aria-label="Section menu">
+          <h2>Sections</h2>
+          <a href="#lead-story">Homepage</a>
+          <a href="#top-stories">Top Stories</a>
+          <a href="#culture">Traditions</a>
+          <a href="#gallery">Photo Gallery</a>
+          <a href="#city-guide">Bishkek Guide</a>
+          <a href="#footerInfo">Contact</a>
+        </aside>
+
+        <section class="lead-story" id="lead-story">
+          <article class="lead-card">
+            <img
+              src="images/hero-city.svg"
+              alt="Illustration of Bishkek skyline with mountains in the background"
+            />
+
+            <div class="lead-copy">
+              <p class="section-tag">Lead Story</p>
+              <h1>Spring markets, mountain light, and busy streets shape the mood of Bishkek.</h1>
+              <p>
+                This homepage highlights the energy of the capital through its public squares,
+                neighborhood cafes, green boulevards, and quick access to the mountains.
+              </p>
+
+              <ul class="lead-points">
+                <li>Fresh food markets draw both visitors and local families.</li>
+                <li>Weekend travel routes connect the city with lakes and hiking trails.</li>
+                <li>New cultural programs keep traditional music and craft visible.</li>
+              </ul>
+
+              <div class="lead-meta">
+                <span>Updated 17 May 2026</span>
+                <span>Read time: 4 min</span>
+                <span>Bishkek, Kyrgyzstan</span>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <aside class="right-sidebar">
+          <section class="sidebar-card weather-card">
+            <h2>Three Day Snapshot</h2>
+            <div class="weather-strip">
+              <div class="weather-day">
+                <strong>Mon</strong>
+                <span>18&deg;C</span>
+                <small>Sunny</small>
+              </div>
+              <div class="weather-day">
+                <strong>Tue</strong>
+                <span>16&deg;C</span>
+                <small>Clouds</small>
+              </div>
+              <div class="weather-day">
+                <strong>Wed</strong>
+                <span>14&deg;C</span>
+                <small>Rain</small>
+              </div>
+            </div>
+          </section>
+
+          <section class="sidebar-card spotlight-card" id="city-guide">
+            <h2>City Guide</h2>
+            <img
+              src="images/gallery-tower.svg"
+              alt="Illustration of a city tower and boulevard in the evening"
+              loading="lazy"
+            />
+            <p>
+              Ala-Too Square, oak-lined walking routes, and small local bakeries remain favorite
+              stops for first-time visitors.
+            </p>
+          </section>
+
+          <section class="sidebar-card latest-card">
+            <h2>Latest Headlines</h2>
+            <ul class="latest-list">
+              <li>Weekend craft fair returns with felt art and ceramics.</li>
+              <li>Mountain route updates help hikers plan faster day trips.</li>
+              <li>Evening concerts bring folk music into public park spaces.</li>
+              <li>Seasonal produce markets expand across central neighborhoods.</li>
+            </ul>
+          </section>
+        </aside>
+
+        <section class="story-section" id="top-stories">
+          <div class="section-header">
+            <h2>Top Stories</h2>
+            <p>Three feature blocks that keep the main homepage content visible.</p>
+          </div>
+
+          <div class="story-grid">
+            <article class="story-card">
+              <img
+                src="images/story-mountains.svg"
+                alt="Mountain valley with a river and hiking path"
+                loading="lazy"
+              />
+              <div class="story-copy">
+                <p class="section-tag">Travel</p>
+                <h3>Early summer routes near Ala-Archa stay popular with day hikers.</h3>
+                <p>
+                  Clean air, short travel times, and accessible viewpoints keep mountain trips at
+                  the center of weekend planning.
+                </p>
+                <a class="story-link" href="#gallery">View gallery</a>
+              </div>
+            </article>
+
+            <article class="story-card">
+              <img
+                src="images/story-festival.svg"
+                alt="Musicians performing during a cultural festival"
+                loading="lazy"
+              />
+              <div class="story-copy">
+                <p class="section-tag">Culture</p>
+                <h3>Public concerts mix traditional instruments with modern city stages.</h3>
+                <p>
+                  Local performers continue to make cultural programs feel active, public, and easy
+                  to join.
+                </p>
+                <a class="story-link" href="#culture">Read feature</a>
+              </div>
+            </article>
+
+            <article class="story-card">
+              <img
+                src="images/story-bazaar.svg"
+                alt="Busy bazaar with colorful produce stands and shoppers"
+                loading="lazy"
+              />
+              <div class="story-copy">
+                <p class="section-tag">Local Life</p>
+                <h3>Bazaar scenes show how food, trade, and routine shape daily rhythm.</h3>
+                <p>
+                  Produce stalls, tea houses, and family shopping trips keep the market district
+                  full from morning to evening.
+                </p>
+                <a class="story-link" href="#lead-story">Back to top story</a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="culture-section" id="culture">
+          <div class="section-header">
+            <h2>Culture & Traditions</h2>
+            <p>A larger feature block plus brief supporting articles.</p>
+          </div>
+
+          <div class="culture-layout">
+            <article class="feature-panel">
+              <img
+                src="images/gallery-yurt.svg"
+                alt="Decorated yurt on open grassland with mountains behind it"
+                loading="lazy"
+              />
+              <h3>Craft, music, and hospitality remain central to the national identity.</h3>
+              <p>
+                From felt craft to komuz performances, cultural events help younger audiences stay
+                connected to long-standing traditions while giving visitors a clearer picture of the
+                country.
+              </p>
+            </article>
+
+            <div class="brief-list">
+              <article class="brief-card">
+                <h3>Felt design workshops</h3>
+                <p>Community studios continue offering open classes for visitors and students.</p>
+              </article>
+
+              <article class="brief-card">
+                <h3>Evening food streets</h3>
+                <p>Local bread, tea, and grilled dishes create one of the easiest entry points.</p>
+              </article>
+
+              <article class="brief-card">
+                <h3>Seasonal public events</h3>
+                <p>City parks keep bringing together art, family activity, and live performance.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="gallery-section" id="gallery">
+          <div class="section-header">
+            <h2>Photo Gallery</h2>
+            <p>Relative images are stored locally in the project.</p>
+          </div>
+
+          <div class="gallery-grid">
+            <figure class="gallery-card">
+              <img
+                src="images/gallery-lake.svg"
+                alt="Blue mountain lake with a small shoreline path"
+                loading="lazy"
+              />
+              <figcaption>Lake views and open skies near Issyk-Kul.</figcaption>
+            </figure>
+
+            <figure class="gallery-card">
+              <img
+                src="images/gallery-tower.svg"
+                alt="City tower and boulevard with warm sunset tones"
+                loading="lazy"
+              />
+              <figcaption>Urban landmarks that frame the capital.</figcaption>
+            </figure>
+
+            <figure class="gallery-card">
+              <img
+                src="images/gallery-yurt.svg"
+                alt="Traditional yurt camp on grassland"
+                loading="lazy"
+              />
+              <figcaption>Traditional spaces that remain part of the visual identity.</figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <footer class="site-footer" id="footerInfo">
+          <p>KG Daily student homepage concept for COM360 Final Project.</p>
+          <p>Suggested GitHub Pages path: `/personal-page/final`</p>
+        </footer>
+      </div>
+    </div>
+
+    <script>
+      const themeStylesheet = document.getElementById("themeStylesheet");
+      const switchStyleButton = document.getElementById("switchStyleButton");
+      const menuToggle = document.getElementById("menuToggle");
+      const pageMenu = document.getElementById("pageMenu");
+      const searchForm = document.querySelector(".search-form");
+      const menuLinks = pageMenu.querySelectorAll("a");
+
+      const closeMenu = () => {
+        pageMenu.classList.remove("open");
+        menuToggle.classList.remove("active");
+        menuToggle.setAttribute("aria-expanded", "false");
+      };
+
+      switchStyleButton.addEventListener("click", () => {
+        const currentHref = themeStylesheet.getAttribute("href");
+        const nextHref = currentHref === "style.css" ? "style2.css" : "style.css";
+        themeStylesheet.setAttribute("href", nextHref);
+      });
+
+      menuToggle.addEventListener("click", () => {
+        const isOpen = pageMenu.classList.toggle("open");
+        menuToggle.classList.toggle("active", isOpen);
+        menuToggle.setAttribute("aria-expanded", String(isOpen));
+      });
+
+      menuLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+          if (window.innerWidth <= 500) {
+            closeMenu();
+          }
+        });
+      });
+
+      window.addEventListener("resize", () => {
+        if (window.innerWidth > 500) {
+          closeMenu();
+        }
+      });
+
+      searchForm.addEventListener("submit", (event) => {
+        event.preventDefault();
+      });
+    </script>
+  </body>
+</html>

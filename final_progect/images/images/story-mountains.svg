@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Mountain valley illustration</title>
+  <desc id="desc">Blue mountains with a river and green field</desc>
+  <rect width="640" height="480" fill="#dff1fb"/>
+  <path d="M0 250 120 120 220 250 320 100 450 260 560 140 640 240V480H0Z" fill="#7ca1c9"/>
+  <path d="M0 290 90 210 170 270 280 190 390 290 500 180 640 300V480H0Z" fill="#9fc4dd"/>
+  <rect y="300" width="640" height="180" fill="#6ea96c"/>
+  <path d="M290 300c28 35 38 74 32 180h64c-8-108-18-147-46-180Z" fill="#80c8e8"/>
+  <path d="M320 300c-42 24-90 30-150 34" stroke="#dfeef4" stroke-width="10" stroke-linecap="round"/>
+</svg>

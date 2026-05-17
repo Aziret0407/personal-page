@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Lake illustration</title>
+  <desc id="desc">Blue lake with hills and shoreline</desc>
+  <rect width="640" height="480" fill="#dff1fb"/>
+  <path d="M0 230 130 150 230 230 330 140 430 240 520 180 640 240V480H0Z" fill="#87aac8"/>
+  <rect y="260" width="640" height="220" fill="#7dd0ee"/>
+  <path d="M0 320c70-20 120-18 190 0s120 20 190 0 120-18 260 10V480H0Z" fill="#59a6c4"/>
+  <path d="M0 410c88-30 170-26 280 0s180 28 360-6v76H0Z" fill="#d8bf87"/>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">City tower illustration</title>
+  <desc id="desc">Tower and boulevard scene with warm sunset sky</desc>
+  <rect width="640" height="480" fill="#f3d7b6"/>
+  <rect y="260" width="640" height="220" fill="#ecc38a"/>
+  <rect x="250" y="110" width="90" height="220" fill="#355f89"/>
+  <rect x="270" y="80" width="50" height="40" fill="#f4f7fb"/>
+  <path d="M180 330h230" stroke="#f4f7fb" stroke-width="10" stroke-linecap="round"/>
+  <rect x="60" y="230" width="120" height="100" fill="#cb6040"/>
+  <rect x="460" y="220" width="110" height="110" fill="#0d6266"/>
+  <path d="M0 420h640" stroke="#d7773a" stroke-width="18"/>
+  <circle cx="120" cy="408" r="24" fill="#5f965c"/>
+  <circle cx="520" cy="408" r="24" fill="#5f965c"/>
+</svg>

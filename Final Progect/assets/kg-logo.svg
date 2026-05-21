@@ -1,0 +1,8 @@
+<svg width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="56" fill="#C1272D"/>
+  <circle cx="120" cy="110" r="58" fill="#FFD262"/>
+  <circle cx="120" cy="110" r="40" stroke="#C1272D" stroke-width="10"/>
+  <path d="M44 168C66 133.333 87.3333 116 108 116C128.667 116 149.333 133.333 170 168H44Z" fill="#FFF7EE"/>
+  <path d="M70 168C84.6667 145.333 101.333 134 120 134C138.667 134 155.333 145.333 170 168H70Z" fill="#E3EEF6"/>
+  <text x="120" y="205" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" fill="white">KG</text>
+</svg>

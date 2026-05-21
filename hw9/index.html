@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment 9</title>
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+  <button class="hamburgerBtn">
+    <i class="fa fa-bars"></i>
+  </button>
+
+  <img 
+    src="https://cdn.imgchest.com/files/pyvdcd2n9yk.png" 
+    class="background-img"
+  >
+
+  <div class="container">
+
+    <div class="box box1">
+      <a href="#">About company</a>
+      <span>|</span>
+      <a href="#">Contacts</a>
+      <span>|</span>
+      <a href="#">payment</a>
+      <span>|</span>
+      <a href="#">Delivery</a>
+      <span>|</span>
+      <a href="#">Organizations</a>
+    </div>
+
+    <div class="box box2">2</div>
+    <div class="box box8">8</div>
+    <div class="box box7">7</div>
+    <div class="box box9">9</div>
+    <div class="box box3">3</div>
+    <div class="box box4">4</div>
+    <div class="box box5">5</div>
+    <div class="box box6">6</div>
+
+  </div>
+
+  <script>
+    const hamburgerBtn = document.querySelector('.hamburgerBtn');
+    const mainMenu = document.querySelector('.box1');
+
+    hamburgerBtn.addEventListener('click', function() {
+      mainMenu.classList.toggle('mobileMenu');
+    });
+  </script>
+
+</body>
+</html>

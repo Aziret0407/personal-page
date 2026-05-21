@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women.kg | Student Community Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="light">
+    <header class="navbar">
+        <div class="container navbar-container">
+            <div class="navbar-left">
+                <a href="#" class="logo">
+                    <span class="material-symbols-outlined icon-primary">diversity_3</span>
+                    <h2>Women.kg</h2>
+                </a>
+                <nav class="nav-links">
+                    <a href="#forum">Community</a>
+                    <a href="#resources">Events</a>
+                    <a href="#wellbeing">Support</a>
+                    <a href="#blog">Journal</a>
+                </nav>
+            </div>
+            <div class="navbar-right">
+                <div class="search-bar hidden-mobile">
+                    <span class="material-symbols-outlined icon-primary">search</span>
+                    <input type="text" placeholder="Find posts or events...">
+                </div>
+                <button class="btn btn-primary btn-rounded" onclick="openModal('register-modal')">Join Project</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="badge">AUCA student web project</span>
+                    <h1 class="hero-title">A calmer online space for <span class="highlight-text">women students</span></h1>
+                    <p class="hero-subtitle">
+                        Women.kg is a simple community website idea where students can ask questions, find events, read stories, and support each other in a respectful way.
+                    </p>
+                    <p class="student-note">
+                        Created as a class project by <strong>Almazov Aziret</strong>. The goal is to show a safe, responsive, and useful student platform.
+                    </p>
+                    <div class="hero-actions">
+                        <button class="btn btn-primary btn-large btn-shadow" onclick="openModal('register-modal')">Create Profile</button>
+                        <a href="#forum" class="btn btn-outline btn-large">See Discussions</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <div class="hero-image">
+                        <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=900&q=80" alt="Students sitting together on campus">
+                    </div>
+                    <div class="hero-floating-badge">
+                        <div class="badge-icon-text">
+                            <span class="material-symbols-outlined icon-primary">school</span>
+                            <p>Made for AUCA community</p>
+                        </div>
+                        <p class="badge-subtext">Forum, resources, wellbeing, and stories in one place.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="forum" class="forum-section bg-primary-light">
+            <div class="container container-sm">
+                <div class="section-header forum-header">
+                    <div>
+                        <h2 class="section-title">Community Board</h2>
+                        <p class="section-subtitle">Students can post questions, ask for advice, or use anonymous mode.</p>
+                    </div>
+                    <div class="toggle-wrapper">
+                        <div class="toggle-text">
+                            <span class="toggle-title">Anonymous mode</span>
+                            <span class="toggle-subtitle">For sensitive topics</span>
+                        </div>
+                        <label class="toggle-switch">
+                            <input type="checkbox" checked>
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="forum-posts">
+                    <div class="post-card">
+                        <div class="post-header">
+                            <div class="post-author">
+                                <div class="author-avatar avatar-anon">
+                                    <span class="material-symbols-outlined icon-primary">lock_person</span>
+                                </div>
+                                <div class="author-info">
+                                    <p class="author-name">Anonymous Student</p>
+                                    <p class="post-meta">Today in #StudentLife</p>
+                                </div>
+                            </div>
+                            <span class="material-symbols-outlined icon-more">more_horiz</span>
+                        </div>
+                        <h3 class="post-title">How do you stay organized during the last weeks of semester?</h3>
+                        <p class="post-excerpt">I have several deadlines at the same time and want to hear simple tips from other students.</p>
+                        <div class="post-actions">
+                            <div class="action-item"><span class="material-symbols-outlined">favorite</span> 18</div>
+                            <div class="action-item"><span class="material-symbols-outlined">forum</span> 9</div>
+                            <div class="action-item"><span class="material-symbols-outlined">bookmark</span></div>
+                        </div>
+                    </div>
+
+                    <div class="post-card">
+                        <div class="post-header">
+                            <div class="post-author">
+                                <div class="author-avatar">
+                                    <img src="https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=200&q=80" alt="Student portrait">
+                                </div>
+                                <div class="author-info">
+                                    <p class="author-name">Aigerim T.</p>
+                                    <p class="post-meta">Yesterday in #Opportunities</p>
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="post-title">CV review group this Friday</h3>
+                        <p class="post-excerpt">I am preparing my internship CV. Maybe we can meet in the library and check each other's drafts?</p>
+                        <div class="post-actions">
+                            <div class="action-item"><span class="material-symbols-outlined">favorite</span> 11</div>
+                            <div class="action-item"><span class="material-symbols-outlined">forum</span> 4</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="forum-footer">
+                    <a href="#" class="link-primary arrow-link">Open more student posts &rarr;</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="resources" class="resources-section">
+            <div class="container container-lg">
+                <div class="section-header-row">
+                    <h2 class="section-title">Events & Useful Links</h2>
+                    <a href="#" class="link-primary font-semibold">Student calendar</a>
+                </div>
+                <div class="grid-3 resources-grid">
+                    <div class="resource-card hover-shadow group">
+                        <div class="card-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=700&q=80" alt="Students discussing ideas at a table" class="zoom-img">
+                            <span class="card-badge">Workshop</span>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">CV & Interview Clinic</h3>
+                            <p class="card-excerpt">A practical session for students who want to prepare for internships or first jobs.</p>
+                            <div class="card-footer">
+                                <span class="card-meta">Friday • Library</span>
+                                <a href="#" class="link-primary font-bold">Save</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="resource-card hover-shadow group">
+                        <div class="card-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=700&q=80" alt="Students working with laptops" class="zoom-img">
+                            <span class="card-badge">Tech</span>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Women in Tech Tea Hour</h3>
+                            <p class="card-excerpt">A small meeting to talk about coding, projects, and how to start building a portfolio.</p>
+                            <div class="card-footer">
+                                <span class="card-meta">Next week • Room 215</span>
+                                <a href="#" class="link-primary font-bold">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="resource-card hover-shadow group">
+                        <div class="card-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=700&q=80" alt="Group of students learning together" class="zoom-img">
+                            <span class="card-badge">Guide</span>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Scholarship Notes</h3>
+                            <p class="card-excerpt">Short tips about motivation letters, recommendation letters, and planning deadlines.</p>
+                            <div class="card-footer">
+                                <span class="card-meta">Online • Open</span>
+                                <a href="#" class="link-primary font-bold">Read</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="wellbeing" class="wellbeing-section">
+            <div class="container container-lg">
+                <div class="wellbeing-grid">
+                    <div class="wellbeing-content">
+                        <h2 class="section-title lg-title">Support Corner</h2>
+                        <p class="section-subtitle lg-subtitle">
+                            This part of the website is for simple wellbeing resources: study breaks, calm routines, peer support, and trusted contacts on campus.
+                        </p>
+                        <div class="support-features">
+                            <div class="feature-item">
+                                <div class="feature-icon"><span class="material-symbols-outlined icon-primary">self_improvement</span></div>
+                                <div class="feature-text">
+                                    <h4>Study break ideas</h4>
+                                    <p>Short reminders to rest, drink water, and plan work in smaller steps.</p>
+                                </div>
+                            </div>
+                            <div class="feature-item">
+                                <div class="feature-icon"><span class="material-symbols-outlined icon-primary">volunteer_activism</span></div>
+                                <div class="feature-text">
+                                    <h4>Peer support</h4>
+                                    <p>A place to find student groups and support contacts without pressure.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn-dark btn-large">View Support Info</button>
+                    </div>
+                    <div class="wellbeing-images-grid">
+                        <div class="col-left">
+                            <div class="info-card bg-primary-light">
+                                <span class="material-symbols-outlined icon-large icon-primary">local_cafe</span>
+                                <p class="info-badge-text">Tea break</p>
+                            </div>
+                            <div class="image-card h-large">
+                                <img src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=500&q=80" alt="Healthy food and study break table">
+                            </div>
+                        </div>
+                        <div class="col-right">
+                            <div class="image-card h-large">
+                                <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=500&q=80" alt="Calm meditation and wellbeing moment">
+                            </div>
+                            <div class="info-card bg-primary-light">
+                                <span class="material-symbols-outlined icon-large icon-primary">edit_note</span>
+                                <p class="info-badge-text">Daily notes</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog" class="blog-section">
+            <div class="container container-lg">
+                <div class="section-header center mb-16">
+                    <h2 class="section-title">Campus Journal</h2>
+                    <p class="section-subtitle mw-2xl">Short student stories, reflections, and simple articles written in a friendly voice.</p>
+                </div>
+                <div class="grid-2 blog-grid">
+                    <article class="blog-card flex-row">
+                        <div class="blog-image">
+                            <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=500&q=80" alt="Student smiling outside">
+                        </div>
+                        <div class="blog-content">
+                            <span class="blog-category">Student story</span>
+                            <h3 class="blog-title hover-primary">How one club meeting helped me choose my project topic</h3>
+                            <p class="blog-excerpt">A short reflection about finding confidence through campus activities and teamwork.</p>
+                            <a href="#" class="blog-link">Read note</a>
+                        </div>
+                    </article>
+                    <article class="blog-card flex-row">
+                        <div class="blog-image">
+                            <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=500&q=80" alt="Students working as a team">
+                        </div>
+                        <div class="blog-content">
+                            <span class="blog-category">AUCA life</span>
+                            <h3 class="blog-title hover-primary">Small habits that make group projects easier</h3>
+                            <p class="blog-excerpt">Clear roles, shared deadlines, and honest communication can make teamwork less stressful.</p>
+                            <a href="#" class="blog-link">Read note</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-section">
+        <div class="container container-lg">
+            <div class="footer-grid">
+                <div class="footer-col-main">
+                    <div class="footer-logo">
+                        <span class="material-symbols-outlined icon-primary">diversity_3</span>
+                        <h2>Women.kg</h2>
+                    </div>
+                    <p class="footer-desc">Student demo website for a safe and helpful AUCA community platform. This version focuses on privacy, simple navigation, and responsive design.</p>
+                    <div class="social-links">
+                        <a href="#"><span class="material-symbols-outlined">public</span></a>
+                        <a href="#"><span class="material-symbols-outlined">mail</span></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Website parts</h4>
+                    <ul>
+                        <li><a href="#forum">Community Board</a></li>
+                        <li><a href="#resources">Events</a></li>
+                        <li><a href="#wellbeing">Support Corner</a></li>
+                        <li><button class="btn btn-danger-outline">Privacy demo</button></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Safety idea</h4>
+                    <ul class="emergency-list">
+                        <li class="primary-text"><span class="material-symbols-outlined text-sm">verified_user</span> Respectful moderation</li>
+                        <li><span class="material-symbols-outlined text-sm">lock</span> Anonymous posting option</li>
+                        <li><span class="material-symbols-outlined text-sm">support_agent</span> Trusted campus contacts</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Women.kg class project. Created by Almazov Aziret.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy</a>
+                    <a href="#">Guidelines</a>
+                    <a href="#">Contacts</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="register-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('register-modal')">&times;</span>
+            <h2 class="font-serif text-3xl mb-2">Create Student Profile</h2>
+            <p class="text-slate-500 mb-6 font-sm">This is a demo registration form for the project.</p>
+            <input type="text" placeholder="Full Name" class="form-control">
+            <input type="email" placeholder="AUCA Email" class="form-control">
+            <input type="password" placeholder="Password" class="form-control">
+            <button class="btn btn-primary btn-rounded w-100 mt-4">Join Demo</button>
+        </div>
+    </div>
+
+    <script>
+        document.querySelectorAll('.nav-links a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        function openModal(modalId) {
+            const modal = document.getElementById(modalId);
+            modal.style.display = 'flex';
+            setTimeout(() => { modal.classList.add('show'); }, 10);
+        }
+
+        function closeModal(modalId) {
+            const modal = document.getElementById(modalId);
+            modal.classList.remove('show');
+            setTimeout(() => { modal.style.display = 'none'; }, 300);
+        }
+
+        window.onclick = function(event) {
+            if (event.target.classList.contains('modal')) {
+                closeModal(event.target.id);
+            }
+        }
+    </script>
+</body>
+</html>
